@@ -1,0 +1,131 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 5,
+            "bank": "Bank Islami",
+            "bankSMSCode": 80030,
+            "createdAt": "2026-03-23T16:44:44.000Z",
+            "updatedAt": "2026-03-23T16:44:44.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asf",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "asdf",
+                    "RastRegex": "asf",
+                    "debitRegex": "asdf",
+                    "genericRegex": "asf"
+                },
+                "sent": {
+                    "1LinkRegex": "asd",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "asf",
+                    "RastRegex": "sadf",
+                    "debitRegex": "saf",
+                    "genericRegex": "asf"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "bank": "Standard Chartered",
+            "bankSMSCode": 9220,
+            "createdAt": "2026-03-23T16:44:23.000Z",
+            "updatedAt": "2026-03-23T16:44:23.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asdf",
+                    "IBFTRegex": "asdf",
+                    "NetBankingRegex": "asdf",
+                    "RastRegex": "asdf",
+                    "debitRegex": "asf",
+                    "genericRegex": "sad"
+                },
+                "sent": {
+                    "1LinkRegex": "ask",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "asf",
+                    "RastRegex": "aside",
+                    "debitRegex": "saf",
+                    "genericRegex": "ask"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "bank": "Dubai Islamic",
+            "bankSMSCode": 2828,
+            "createdAt": "2026-03-23T16:43:58.000Z",
+            "updatedAt": "2026-03-23T16:43:58.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asdf",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "sadf",
+                    "RastRegex": "adsf",
+                    "debitRegex": "asf",
+                    "genericRegex": "ask"
+                },
+                "sent": {
+                    "1LinkRegex": "asf",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "sadf",
+                    "RastRegex": "asf",
+                    "debitRegex": "asf",
+                    "genericRegex": "saf"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "bank": "Bank Alhabib",
+            "bankSMSCode": 8810,
+            "createdAt": "2026-03-23T16:43:26.000Z",
+            "updatedAt": "2026-03-23T16:43:26.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asf",
+                    "IBFTRegex": "asf",
+                    "NetBankingRegex": "asf",
+                    "RastRegex": "asdf",
+                    "debitRegex": "sadf",
+                    "genericRegex": "sad"
+                },
+                "sent": {
+                    "1LinkRegex": "asdf",
+                    "IBFTRegex": "asfd",
+                    "NetBankingRegex": "saf",
+                    "RastRegex": "asdf",
+                    "debitRegex": "asdf",
+                    "genericRegex": "aside"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "bank": "Bank Alfalah",
+            "bankSMSCode": 8287,
+            "createdAt": "2026-03-23T16:42:19.000Z",
+            "updatedAt": "2026-03-23T16:43:02.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asfd",
+                    "IBFTRegex": "asdf",
+                    "NetBankingRegex": "PKR\\s+([\\d,]+\\.?\\d*)\\s+received from\\s+([A-Z\\s]+)-([\\w]+)\\s+to A/C\\s+(\\w+)\\s+of\\s+([A-Z\\s]+)\\s+on\\s+([\\d-]+)\\s+at\\s+([\\d:]+)",
+                    "RastRegex": "aside",
+                    "debitRegex": "PKR\\s+([\\d,]+\\.?\\d*)\\s+received from\\s+([A-Z.\\s]+)\\s+AC#\\s+([\\w]+)\\s+as RAAST payment to your AC#\\s+([\\d]+)\\s+of\\s+([A-Z\\s]+)\\s+on\\s+([\\d-]+)\\s+at\\s+([\\d:]+)",
+                    "genericRegex": "asf"
+                },
+                "sent": {
+                    "1LinkRegex": "sad",
+                    "IBFTRegex": "ask",
+                    "NetBankingRegex": "asf",
+                    "RastRegex": "asdf",
+                    "debitRegex": "asf",
+                    "genericRegex": "asdf"
+                }
+            }
+        }
+    ],
+    "count": 5
+}
