@@ -125,6 +125,31 @@
                     "genericRegex": "asdf"
                 }
             }
+        },
+        {
+            "id": 1,
+            "bank": "Meezan Bank",
+            "bankSMSCode": 8079,
+            "createdAt": "2026-03-23T16:42:19.000Z",
+            "updatedAt": "2026-03-23T16:43:02.000Z",
+            "manageRegex": {
+                "received": {
+                    "1LinkRegex": "asfd",
+                    "IBFTRegex": "asdf",
+                    "NetBankingRegex": "PKR\\s+([\\d,]+\\.?\\d*)\\s+received from\\s+([A-Z\\s]+)-([\\w]+)\\s+to A/C\\s+(\\w+)\\s+of\\s+([A-Z\\s]+)\\s+on\\s+([\\d-]+)\\s+at\\s+([\\d:]+)",
+                    "RastRegex": "aside",
+                    "debitRegex": "PKR\\s+([\\d,]+\\.?\\d*)\\s+received from\\s+([A-Z.\\s]+)\\s+AC#\\s+([\\w]+)\\s+as RAAST payment to your AC#\\s+([\\d]+)\\s+of\\s+([A-Z\\s]+)\\s+on\\s+([\\d-]+)\\s+at\\s+([\\d:]+)",
+                    "genericRegex": "asf"
+                },
+                "sent": {
+                    "1LinkRegex": "sad",
+                    "IBFTRegex": "ask",
+                    "NetBankingRegex": "asf",
+                    "RastRegex": "asdf",
+                    "debitRegex": "asf",
+                    "genericRegex": "asdf"
+                }
+            }
         }
     ],
     "count": 5
